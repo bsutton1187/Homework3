@@ -1,0 +1,68 @@
+body{
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('../images/pidgeon-background.jpg');
+  background-repeat: no-repeat;
+
+}
+h1{
+  font-size: 2em;
+  line-height: 1.5;
+  color: #c12258;
+}
+a{
+  color: #7e0830;
+  font-size: 18px;
+}
+a:focus {
+  border: red, 1px;
+}
+p{
+  font-size: 18px, 0;
+  padding-top: 15px, 0;
+}
+table {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  border-bottom: none;
+}
+
+}
+table tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+table tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+th, td{
+  border-bottom:  black 2px solid;
+  padding: 15px;
+}
+tr {
+  border-bottom: none;
+}
+tr:hover {background-color: #fab9cf;}
+thead {
+  background-color: #7e0830;
+  color: white;
+  text-transform: uppercase;
+  column-span: 150px
+}
+footer{
+  color: white;
+  background: black;
+  text-align: center;
+  min-height: 60px;
+}
